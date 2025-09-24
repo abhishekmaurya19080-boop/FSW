@@ -1,0 +1,19 @@
+h1 {
+  font-family: 'Georgia', serif;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  color: darkblue;
+  text-align: center;
+}
+
+p {
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: green wavy underline;
+  line-height: 1.5;
+  margin: 30px;
+  text-align: justify;
+}
