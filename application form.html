@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+</head>
+<body>
+    <h1>APPLICATION FORM</h1>
+    <p>Thank you for your interest in working with us. Please check below for available job opportunities that meet your criteria and send your application by filling out the Job Application Form.</p>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td><label for="fullname">* Full Name:</label></td>
+                <td><input type="text" id="fullname" name="fullname" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">* Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="age">* Age:</label></td>
+                <td><input type="number" id="age" name="age" required></td>
+            </tr>
+            <tr>
+                <td><label for="role">Which option best describes your current role?</label></td>
+                <td>
+                    <select id="role" name="role">
+                        <option value="student">Student</option>
+                        <option value="employee">Employee</option>
+                        <option value="freelancer">Freelancer</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>* Would you like to list references?</td>
+                <td>
+                    <input type="radio" id="yes" name="references" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="references" value="no">
+                    <label for="no">No</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="position">Which position would you like to apply for?</label></td>
+                <td>
+                    <select id="position" name="position">
+                        <option value="">Select an option</option>
+                        <option value="frontend">Frontend Developer</option>
+                        <option value="backend">Backend Developer</option>
+                        <option value="fullstack">Full Stack Developer</option>
+                        <option value="intern">Intern</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Which programming languages do you know?</td>
+                <td>
+                    <input type="checkbox" name="language" value="Java"> Java<br>
+                    <input type="checkbox" name="language" value="Python"> Python<br>
+                    <input type="checkbox" name="language" value="JavaScript"> JavaScript<br>
+                    <input type="checkbox" name="language" value="C++"> C++<br>
+                    <input type="checkbox" name="language" value="Swift"> Swift<br>
+                    <input type="checkbox" name="language" value="Ruby"> Ruby<br>
+                    <input type="checkbox" name="language" value=".NET"> .NET
+                </td>
+            </tr>
+            <tr>
+                <td>Upload Resume (optional):</td>
+                <td><input type="file" name="resume"></td>
+            </tr>
+            <tr>
+                <td>Any Comments?</td>
+                <td><textarea name="comments" rows="4" cols="30" placeholder="Enter your comment here..."></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit Application">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
