@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;
+}
+@media only sreen and (min-width:400px)and (max-width:600px){
+    body{
+background-color: red;
+}
+
+}
