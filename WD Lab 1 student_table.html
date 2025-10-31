@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Detail Table</title>
+  <style>
+    body { 
+      font-family: Arial, Helvetica, sans-serif;   
+      padding: 24px; 
+    }
+    .table-wrap {
+      max-width: 720px;
+      background: rgb(47, 206, 255);
+      padding: 16px;
+      border-radius: 12px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse; 
+      min-width: 480px;
+    }
+
+    thead th {
+      background: #2f78ff;
+      color: #fff;
+      text-align: left;
+      padding: 12px 14px;
+      border: 1px solid #2a66e4;
+    }
+
+    td {
+      padding: 10px 14px;
+      border: 1px solid #d7dbe6;
+    }
+    tbody tr:nth-child(even) {
+      background: palevioletred;
+    }
+
+    tbody tr:hover {
+      background: peru;
+    }
+    td:first-child, th:first-child {
+      width: 110px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="table-wrap">
+    <h2>Student Details</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Roll No</th>
+          <th>Name</th>
+          <th>Course</th>
+          <th>Marks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>50</td>
+          <td>Abhishek Kumar Maurya</td>
+          <td>B-Tech / CSE</td>
+          <td>88</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>Ayush Singh</td>
+          <td>B-Tech / CSE</td>
+          <td>76</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Aadity Verma</td>
+          <td>B.Tech /CSE</td>
+          <td>92</td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>Abhay</td>
+          <td>B.Tech / CSE</td>
+          <td>69</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
