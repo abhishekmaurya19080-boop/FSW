@@ -1,0 +1,23 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(127, 255, 129);
+    animation-name: example;
+    animation-duration: 3s;
+}
+@keyframes example {
+    /*from{
+        background-color: aqua;
+    }
+    to{
+        background-color: red;
+    }*/
+0%{background-color: aqua;}
+20%{background-color: rgb(0, 255, 17);}
+30%{background-color: rgb(0, 81, 255);}
+40%{background-color: rgb(255, 153, 0);}
+60%{background-color: rgb(183, 255, 0);}
+80%{background-color: rgb(255, 0, 217);}
+100%{background-color: rgb(255, 0, 106);}
+
+}
