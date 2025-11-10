@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="exp5.css">
+</head>
+
+<body>
+
+<div class="header">
+    <div class="logo">Logo</div>
+    <div class="title">Web Site Name</div>
+</div>
+
+<div class="menu">
+    <a href="#">Home</a>
+    <a href="#">Login</a>
+    <a href="#" class="active">Registration</a>
+    <a href="#">Catalogue</a>
+    <a href="#">Cart</a>
+</div>
+
+<div class="main">
+
+    <div class="sidebar">
+        <p>CSE</p><hr>
+        <p>ECE</p><hr>
+        <p>EEE</p><hr>
+        <p>CIVIL</p>
+    </div>
+
+    <div class="reg-box">
+        <h2>Registration Form</h2>
+
+        <form>
+
+            <label>Name:</label>
+            <input type="text" required>
+
+            <label>Password:</label>
+            <input type="password" required>
+
+            <label>Email ID:</label>
+            <input type="email" required>
+
+            <label>Phone Number:</label>
+            <input type="text" required>
+
+            <label>Sex:</label>
+            <div class="radio-group">
+                <input type="radio" name="sex" value="Male"> Male
+                <input type="radio" name="sex" value="Female"> Female
+            </div>
+
+            <label>Date of Birth:</label>
+            <div class="dob-box">
+                <select>
+                    <option>Day</option>
+                    <script>
+                        for(let i=1; i<=31; i++) {
+                            document.write(`<option>${i}</option>`);
+                        }
+                    </script>
+                </select>
+
+                <select>
+                    <option>Month</option>
+                    <option>Jan</option><option>Feb</option><option>Mar</option>
+                    <option>Apr</option><option>May</option><option>Jun</option>
+                    <option>Jul</option><option>Aug</option><option>Sep</option>
+                    <option>Oct</option><option>Nov</option><option>Dec</option>
+                </select>
+
+                <select>
+                    <option>Year</option>
+                    <script>
+                        for(let i=1980; i<=2025; i++) {
+                            document.write(`<option>${i}</option>`);
+                        }
+                    </script>
+                </select>
+            </div>
+
+            <label>Languages Known:</label>
+            <div class="check-group">
+                <input type="checkbox"> English  
+                <input type="checkbox"> Telugu  
+                <input type="checkbox"> Hindi  
+                <input type="checkbox"> Tamil  
+            </div>
+
+            <label>Address:</label>
+            <textarea rows="4"></textarea>
+
+            <button type="submit" class="submit">Register</button>
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>
