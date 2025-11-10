@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background: #f3d4b2;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 200px;
+    padding: 20px;
+    border-right: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.title {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.menu {
+    display: flex;
+    background: #f7eddd;
+    border: 1px solid black;
+}
+
+.menu a {
+    flex: 1;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-right: 1px solid black;
+    font-size: 18px;
+}
+
+.main {
+    display: flex;
+    border: 1px solid black;
+}
+
+.sidebar {
+    width: 160px;
+    padding: 20px;
+    border-right: 1px solid black;
+    font-size: 17px;
+}
+
+.sidebar hr {
+    border: 0.5px solid gray;
+}
+
+.cart-content {
+    width: 100%;
+    padding: 30px;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 17px;
+}
+
+.cart-table th,
+.cart-table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.cart-table th {
+    background: #f0f0f0;
+    font-weight: bold;
+}
+
+.cart-table td {
+    background: #ffffff;
+}
+
+.cart-table tr:last-child td {
+    font-size: 18px;
+    font-weight: bold;
+}
