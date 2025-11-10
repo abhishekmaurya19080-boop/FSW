@@ -1,0 +1,106 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background: #eab488;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 200px;
+    padding: 20px;
+    border-right: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.title {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.menu {
+    display: flex;
+    background: #f6e1cf;
+    border: 1px solid black;
+}
+
+.menu a {
+    flex: 1;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-right: 1px solid black;
+    font-size: 18px;
+}
+
+.main {
+    display: flex;
+    border: 1px solid black;
+}
+
+.sidebar {
+    width: 160px;
+    padding: 20px;
+    border-right: 1px solid black;
+    font-size: 18px;
+}
+
+.sidebar hr {
+    border: 0.5px solid gray;
+}
+
+.content {
+    padding: 25px;
+    width: 100%;
+}
+
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.book-table td {
+    padding: 15px;
+}
+
+.img-col img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.details-col {
+    width: 45%;
+    font-size: 17px;
+}
+
+.price-col {
+    width: 80px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.cart-col {
+    width: 150px;
+    text-align: center;
+}
+
+.cart-btn {
+    padding: 10px 20px;
+    border: 2px solid black;
+    background: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.cart-btn:hover {
+    background: #ececec;
+}
