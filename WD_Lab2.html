@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Watch Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2972/2972185.png">
+
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .price {
+      font-size: 28px;
+      color: green;
+      font-weight: bold;
+    }
+
+    .card {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .cta {
+      background: linear-gradient(to right, #ff9800, #ff5722);
+      color: white;
+    }
+
+    .rating {
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="bg-dark text-white p-3">
+  <div class="container">
+    <h2>SmartWatch Pro</h2>
+  </div>
+</header>
+
+<!-- Smart Watch Carousel -->
+<section class="container my-5">
+  <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12"
+             class="d-block w-100" alt="Smart Watch 1">
+      </div>
+
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1516574187841-a899398421b3"
+             class="d-block w-100" alt="Smart Watch 2">
+      </div>
+
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1523475496153-3d6ccf0e93c0"
+             class="d-block w-100" alt="Smart Watch 3">
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" data-bs-target="#productCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" data-bs-target="#productCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+
+<!-- Product Details -->
+<section class="container my-5">
+  <div class="row align-items-center">
+
+    <div class="col-md-6">
+      <h2>SmartWatch Pro</h2>
+      <p class="price">₹4,999</p>
+      <p>Advanced smart watch with fitness tracking, Bluetooth calling, water resistance, and long battery life.</p>
+      <button class="btn btn-success btn-lg">
+        <i class="fas fa-shopping-cart"></i> Buy Now
+      </button>
+    </div>
+
+    <div class="col-md-6">
+      <h4>Key Features</h4>
+      <ul class="list-group">
+        <li class="list-group-item">Heart Rate & SpO₂ Monitor</li>
+        <li class="list-group-item">Bluetooth Calling</li>
+        <li class="list-group-item">Water Resistant</li>
+        <li class="list-group-item">7 Days Battery Backup</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- Reviews -->
+<section class="bg-light p-5">
+  <div class="container text-center">
+    <h3>Customer Reviews</h3>
+    <p class="rating">⭐⭐⭐⭐☆ 4.5 / 5 (300+ reviews)</p>
+  </div>
+</section>
+
+<!-- Related Smart Watches -->
+<section class="container my-5">
+  <h3 class="text-center mb-4">Related Smart Watches</h3>
+
+  <div class="row">
+
+    <!-- SmartWatch Lite -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1" class="card-img-top" alt="SmartWatch Lite">
+        <div class="card-body text-center">
+          <h5 class="card-title">SmartWatch Lite</h5>
+          <p class="card-text">₹2,999</p>
+          <button class="btn btn-primary">View</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fitness SmartWatch -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1510017803434-a899398421b3" class="card-img-top" alt="Fitness SmartWatch">
+        <div class="card-body text-center">
+          <h5 class="card-title">Fitness SmartWatch</h5>
+          <p class="card-text">₹3,499</p>
+          <button class="btn btn-primary">View</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Premium SmartWatch -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12" class="card-img-top" alt="Premium SmartWatch">
+        <div class="card-body text-center">
+          <h5 class="card-title">Premium SmartWatch</h5>
+          <p class="card-text">₹6,999</p>
+          <button class="btn btn-primary">View</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta text-center p-5">
+  <h3>Register Now & Get 10% Discount</h3>
+  <button class="btn btn-warning btn-lg">Register</button>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3">
+  <p>© 2025 SmartWatch Store</p>
+  <i class="fab fa-facebook"></i>
+  <i class="fab fa-instagram"></i>
+  <i class="fab fa-twitter"></i>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
